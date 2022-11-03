@@ -1,0 +1,214 @@
+/*Plano de fundo*/
+
+#wrapper {
+	overflow: hidden;
+	background:#FFF;
+}
+
+/* Cabecalho */
+
+#cabecalho {
+	overflow: hidden;
+	height: auto;
+}
+
+#cabecalho h1, #cabecalho p {
+	text-align: center;
+}
+
+#cabecalho h1 {
+	padding: 110px 0px 0px 0px;
+	letter-spacing: -6px;
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #31373a;
+}
+
+#cabecalho p {
+	margin-top: 0px;
+	padding: 0px 0px 0px 5px;
+	font-size: 17px;
+	font-weight: normal;
+	color: #31373a;
+	margin-top:auto;
+}
+
+#cabecalho p a {
+	color: #31373a;;
+}
+
+#cabecalho a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #31373a;
+}
+
+/* Conteúdo das três colunas */
+
+#three-column {
+	overflow: hidden;
+	padding: 0px 0px 5px 0px;
+}
+
+/*Alinhamento da coluna*/
+#three-column .tbox1 {
+	float: left;
+	width: 250px;
+	margin-right: 20px;
+}
+
+#three-column .tbox2 {
+	float: left;
+	width: 270px;
+}
+
+#three-column .tbox3 {
+	float:left;/*right*/
+	width: 270px;/*384px*/
+}
+
+/*área de respiro*/
+.box-style {
+	background:#FFF;
+	text-align: center;
+}
+
+.box-style01
+{
+	
+	
+}
+
+
+.box-style02
+{
+}
+
+.box-style03
+{
+}
+
+/*Tamanho fonte usada*/
+.box-style h2 {
+	padding: 0px 0px;
+	letter-spacing: -1px;
+	font-size: 22px;
+	color: #2D2D2D;
+}
+
+.box-style {
+	width: 270px;
+	padding: 0px 0px;
+
+
+}
+
+.image {
+	
+}
+.box-style .arrow {
+
+}
+
+.box-style .content {
+	overflow: hidden;
+	width: 324px;
+	padding: 30px;
+}
+
+
+.divider {
+	overflow: hidden;
+	height: 50px;
+	background: url(images/img04.png) no-repeat center top;
+}
+.convimg {
+  width: 50%;
+ text-align: center;
+}
+
+
+/* Backgroound Promoções */
+.fundo{
+	width: 100%;
+	height: 100%;
+	background-color:#FFF;
+	color:#fff;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom:-30px;
+}
+
+.fundo>hgroup>h1{
+	line-height:500px;
+	text-shadow:1px 1px 2px #000; 
+	font-family: verdana;
+	font-size: 30px;
+
+}
+
+.fundo>hgroup>h2{
+	margin-top:-230px;
+	text-shadow:1px 1px 2px #000; 
+	font-family: verdana;
+	font-size: 15px; 
+
+}
+
+.fundo0 {	
+	width: 500px;
+	padding-top: 200px;
+	margin: 0 auto;
+}
+
+.fundo1 {	
+	width: 500px;
+	padding-top: 200px;
+	margin: 0 auto;
+}
+
+.fundo2 {	
+	width: 500px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+.fundo3 {	
+	width: 500px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+.fundo4 {	
+	width: 500px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+.fundo5 {	
+	width: 500px;
+	padding-top: 50px;
+	
+	
+	margin: 0 auto;
+	margin-bottom:50px;
+	
+
+}
+
+/* Classes da tabela dos dados de convênio na modal */
+.tbdadosmodal {
+	border-style: none;
+	border-spacing: 5px;
+}
+.tbdadosmodaldir {
+	text-align: left;
+	padding-left: 3px;
+}
+.tbdadosmodalesq {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 3px;
+	vertical-align: top;
+}

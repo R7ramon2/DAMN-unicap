@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+
+<html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <title>Faculdade Anasps</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="author" content="Filipi Machado">
+        <meta name="author" content="Bruno Rodrigues Santos">
+        <meta name="author" content="Marcos Dorneles">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Educação Presencial e a Distância - Faculdade Anasps">
+
+        <!-- Banner Slide--> 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/gallery.prefixed.css">
+        <link rel="stylesheet" href="css/gallery.theme.css">
+
+        
+        <!-- stylesheets -->
+        <link rel="shortcut icon" href="imagens/favicon.png">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+
+        <!-- scripts -->
+        <script type="text/javascript" src="assets/js/modernizr.custom.97074.js"></script>
+
+    </head>
+
+    <body>
+        <div id="single-blog-left-sidebar">
+            <div id="menu_include"></div>
+            <header class="page-head">
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <ol class="breadcrumb">
+                                    <li class="active">INSTITUCIONAL</li>
+                                </ol> <!-- end of /.breadcrumb -->
+
+                            </div>
+                        </div>
+                    </div> <!-- /.container -->
+                </div> <!-- /.header-wrapper -->
+            </header> <!-- /.page-head (header end) -->
+
+            <section class="blog-content">
+                <div class="container">
+                    <div class="row">
+                        <main class="col-md-9 col-md-push-3" style="display: block;">
+                            <article class="blog-item">
+                                <div class="blog-heading">
+                                    <h3 class="text-capitalize">Corpo Diretivo</h3>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="article-conclusion">
+                                            <strong>Diretor Geral – </strong> <b>Prof. Alexandre Barreto Lisboa</b>
+                                        </p>
+                                        <p class="article-conclusion">
+                                            <strong>Diretora de Administração – </strong><b>Prof. Elienai Ramos Coelho</b>
+                                        </p>
+                                        <p class="article-conclusion">
+                                            <strong>Diretora Acadêmica – </strong><b>Prof. Veronica Maria Monteiro Rocha</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                    </div>
+                </div>
+            </section>
+            <div id="footer_include"></div>
+            
+        </div> <!-- end of /#home-page -->
+
+        <!--  Necessary scripts  -->
+
+        <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+
+        <script type="text/javascript">
+            $(function(){
+              $('a').each(function() {
+                if ($(this).prop('href') == window.location.href) {
+                  $(this).addClass('current');
+                }
+              });
+            });
+        </script>
+
+        <script type="text/javascript">
+            $(function(){
+              $('a').each(function() {
+                if ($(this).prop('href') == window.location.href) {
+                  $(this).addClass('current');
+                }
+              });
+            });
+        </script>
+
+        <!-- script for portfolio section using hoverdirection -->
+        <script type="text/javascript">
+            $(function() {
+
+                $('.portfolio-item > .item-image').each( function() { $(this).hoverdir({
+                    hoverDelay : 75
+                }); } );
+
+            });
+        </script>
+
+        <!-- script for twitter-feed using owl carousel-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#twit").owlCarousel({
+                 
+                    navigation : true, // Show next and prev buttons
+                    slideSpeed : 100,
+                    paginationSpeed : 400,
+                    navigationText : false,
+                    singleItem: true,
+                    autoPlay: true,
+                    pagination: false
+                });
+
+                $("#menu_include").load("menu.html");
+                $("#footer_include").load("footer.html");
+ 
+            });
+        </script>
+
+
+        <!-- script for testimonial section using owl carousel -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#client-speech").owlCarousel({
+                 
+                    autoPlay: 5000, //Set AutoPlay to 3 seconds
+                    stopOnHover: true,
+                    singleItem:true
+                });
+ 
+            });
+        </script>
+    </body>
+</html>

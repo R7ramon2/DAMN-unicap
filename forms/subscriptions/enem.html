@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+
+<html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <title>Faculdade Anasps</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="author" content="Filipi Machado">
+        <meta name="author" content="Bruno Rodrigues Santos">
+        <meta name="author" content="Marcos Dorneles">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Educação Presencial e a Distância - Faculdade Anasps">
+
+        <!-- Banner Slide--> 
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="../../css/gallery.prefixed.css">
+        <link rel="stylesheet" href="../../css/gallery.theme.css">
+
+        
+        <!-- stylesheets -->
+        <link rel="shortcut icon" href="../../imagens/favicon.png">
+        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../assets/css/animate.css">
+        <link rel="stylesheet" href="../../assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="../../assets/css/owl.theme.css">
+        <link rel="stylesheet" href="../../assets/css/style.css">
+
+
+        <!-- scripts -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+	    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+	    <script src="js/jquery.mask.min.js"></script>
+	    <script>
+	      $('#celular').mask('(00) 00000-0000');
+	      $('#telefone').mask('(00) 0000-0000');
+	      $('#telefone_comercial').mask('(00) 0000-0000');
+	      $('#data_nasc').mask('00/00/0000');
+	      $('#cpf').mask('000.000.000-00');
+	      $('#cep').mask('00000-000');
+	    </script>
+	    <script type="text/javascript" src="js/validar_cpf.js"></script>
+	    <script type="text/javascript" src="js/validar.js"></script>
+	    <script type='text/javascript' src='js/jquery.js'></script>
+	    <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+        <script type="text/javascript" src="../assets/js/modernizr.custom.97074.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="home-page">
+        	<div id="menu_include"></div>
+            </header>
+            <!-- /#header -->
+
+            <div class="main-content">
+            
+            <!-- header begin -->
+            <header class="page-head">
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <ol class="breadcrumb">
+									<li class="active">INSCRIÇÃO NO VESTIBULAR TRADICIONAL</li>
+                                </ol> <!-- end of /.breadcrumb -->
+
+                            </div>
+                        </div>
+                    </div> <!-- /.container -->
+                </div> <!-- /.header-wrapper -->
+            </header> <!-- /.page-head (header end) -->
+
+            <div class="main-content">
+
+			
+		<div class="row container-fluid full_banner">
+			<div class="container">
+				<h2>UTILIZE SUA NOTA DO ENEM</h2>
+			</div>
+		</div>
+
+
+		<div class="row">
+
+			<div class="container">
+
+				<form action="php/enviar_ficha_enem.php" method="post" name="form1" id="form1" onsubmit="return validar_formulario_ficha_enem(this)">
+					<div class="panel panel-default" id="form_dados_cadastrais">
+						<div class="panel-heading">
+							Dados Cadastrais
+						</div>
+						<div class="panel-body">
+							<p>
+								*Campos obrigatórios
+							</p>
+							<div class="row">
+								<div class="form-group col-md-12">
+									<label >Nome*</label>
+									<input type="text" id="nome" name="nome" onfocusout="javascript: validacao_nome();" class="form-control"  placeholder="Digite seu nome" tabindex="1">
+									<div id="nome_validar">
+										Digite um nome.
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6">
+									<label>Data de Nascimento*</label>
+									<input type="date" name="data_nasc" id="data_nasc" onfocusout="javascript: validacao_data_nasc();" class="form-control" id="data"  placeholder="00/00/0000"  tabindex="2">
+									<div id="data_nasc_validar">
+										Digite uma data de Nascimento.
+									</div>
+								</div>
+								<div class="form-group col-md-6">
+									<label>Sexo*</label>
+									<select name="sexo" class="form-control" onfocusout="javascript: validacao_sexo();"  tabindex="3">
+										<option value="Selecione">Selecione</option>
+										<option value="Masculino">Masculino</option>
+										<option value="Feminino">Feminino</option>
+									</select>
+									<div id="sexo_validar">
+										Selecione o sexo.
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-2">
+									<label>CEP*</label>
+									<input type="text" name="cep" id="cep" onfocusout="javascript: validacao_cep();" class="form-control"  placeholder="00000-000" tabindex="4">
+									<div id="cep_validar">
+										Digite um CEP.
+									</div>
+								</div>
+								<div class="form-group col-md-8">
+									<label>Endereço*</label>
+									<input type="text" name="endereco" id="endereco" onfocusout="javascript: validacao_endereco();" class="form-control"  placeholder="Digite seu endereço" tabindex="5">
+									<div id="endereco_validar">
+										Digite um endereço.
+									</div>
+								</div>
+								<div class="form-group col-md-2">
+									<label>Número</label>
+									<input type="text" name="numero" id="numero" class="form-control"  placeholder="Digite o número" tabindex="6">
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6">
+									<label>Bairro*</label>
+									<input type="text" name="bairro" id="bairro" onfocusout="javascript: validacao_bairro();" class="form-control"  placeholder="Digite seu bairro" tabindex="7">
+									<div id="bairro_validar">
+										Digite um bairro.
+									</div>
+								</div>
+
+								<div class="form-group col-md-4">
+									<label>Cidade*</label>
+									<input type="text" name="cidade" id="cidade" onfocusout="javascript: validacao_cidade();" class="form-control"  placeholder="Digite sua cidade" tabindex="8">
+									<div id="cidade_validar">
+										Digite uma cidade.
+									</div>
+								</div>
+								<div class="form-group col-md-2">
+									<label>UF*</label>
+									<input type="text" name="uf" id="uf" onfocusout="javascript: validacao_uf();" class="form-control" ="" placeholder="UF" tabindex="9">
+									<div id="uf_validar">
+										Digite uma UF.
+
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+
+								<div class="form-group col-md-12">
+									<label>Complemento:</label>
+									<input type="text" name="complemento" id="complemento" class="form-control" placeholder="Digite o complemento, se houver" tabindex="10">
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="form-group col-md-3">
+									<label>RG*</label>
+									<input type="text" name="rg" id="rg" onfocusout="javascript: validacao_rg();" class="form-control"  placeholder="Digite seu RG" tabindex="11">
+									<div id="rg_validar">
+										Digite um RG.
+									</div>
+								</div>
+								<div class="form-group col-md-4">
+									<label>Órgão Expedidor*</label>
+									<input type="text" name="orgao_expedidor" id="orgao_expedidor" onfocusout="javascript: validacao_orgao_expedidor();" class="form-control"  placeholder="Digite o órgão expedidor" tabindex="12">
+									<div id="orgao_expedidor_validar">
+										Informe o órgão expedidor do RG.
+									</div>
+								</div>
+								<div class="form-group col-md-5">
+									<label>CPF*</label>
+									<input type="text" name="cpf" id="cpf" onfocusout="javascript: validacao_cpf();" onkeypress="javascript: mascara(this, cpf_mask);" class="form-control"  tabindex="13"  placeholder="000.000.000-00">
+									<div id="cpf_validar">
+										CPF Inválido
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="panel panel-default" id="form_contato">
+						<div class="panel-heading">
+							Contato
+						</div>
+						<div class="panel-body">
+							<p>
+								*Campos obrigatórios
+							</p>
+							<div class="row">
+								<div class="form-group col-md-4">
+									<label>Telefone Fixo:</label>
+									<input type="text" name="telefone_fixo" id="telefone" class="form-control" id="telefone" placeholder="(00) 0000-0000"  tabindex="14">
+								</div>
+
+								<div class="form-group col-md-4">
+									<label>Celular*</label>
+									<input type="text" name="telefone_celular" id="celular" onfocusout="javascript: validacao_celular();" class="form-control" id="celular"  placeholder="(00) 00000-0000"  tabindex="15">
+									<div id="celular_validar">
+										Digite um celular.
+									</div>
+								</div>
+
+								<div class="form-group col-md-4">
+									<label>Telefone Comercial:</label>
+									<input type="text" name="telefone_comercial" id="telefone_comercial" class="form-control" id="telefone_comercial" placeholder="(00) 0000-0000"  tabindex="15">
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6">
+									<label>E-mail*</label>
+									<input type="text" id="email" name="email" onfocusout="javascript: validacao_email();" class="form-control"  placeholder="Digite seu e-mail"  tabindex="16">
+									<div id="email_validar">
+										Digite um email.
+									</div>
+								</div>
+								<div class="form-group col-md-6">
+									<label>Confirme o e-mail*</label>
+									<input type="text" id="confirmacao_email" name="confirmacao_email" onfocusout="javascript: validacao_confirmacao_email();" class="form-control" onpaste="return false" ondrop="return false" tabindex="17" placeholder="Digite o e-mail para confirmar">
+									<div id="confirmacao_email_validar">
+										E-mail de confirmação diferente do e-mail.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default" id="form_historico">
+						<div class="panel-heading">
+							Histórico Escolar
+						</div>
+						<div class="panel-body">
+							<p>
+								*Campos obrigatórios
+							</p>
+							<div class="row">
+								<div class="form-group col-md-4">
+									<label>Ano de conclusão do ensino médio*</label>
+									<input type="number" name="ano_conclusao" id="ano_conclusao" onfocusout="javascript: validacao_ano_conclusao();" class="form-control"  placeholder="Ex: 2006"  tabindex="18">
+									<div id="ano_conclusao_validar">
+										Informe o ano.
+									</div>
+								</div>
+								<div class="form-group col-md-5">
+									<label>Escola*</label>
+									<input type="text" name="escola" id="escola" onfocusout="javascript: validacao_escola();" class="form-control"  placeholder="Digite a escola"  tabindex="19">
+									<div id="escola_validar">
+										Digite a escola.
+									</div>
+								</div>
+								<div class="form-group col-md-3">
+									<label>Nota do ENEM*</label>
+									<input type="text" name="nota_enem" id="nota_enem" onfocusout="javascript: validacao_enem();" class="form-control" placeholder="Digite a nota" tabindex="20">
+									<div id="nota_enem_validar">
+										Informe a nota do ENEM
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Interesses na Faculdade ANASPS
+						</div>
+						<div class="panel-body">
+							<p>
+								*Campos obrigatórios
+							</p>
+							<div class="row">
+								<div class="form-group col-md-4">
+									<label>Período de Ingresso*</label>
+									<select name="periodo" class="form-control"  tabindex="23">
+										<option value="1">1º</option>
+										<option value="2">2º</option>
+										<option value="3">3º</option>
+										<option value="4">4º</option>
+									</select>
+								</div>
+								<div class="form-group col-md-4">
+
+									<label>Curso de Interesse*</label>
+									<select name="curso" class="form-control"  tabindex="24">
+										<option value="gestao_publica">Gestão Pública</option>
+									</select>
+								</div>
+								<div class="form-group col-md-4">
+
+									<label>Turno*</label>
+									<select name="turno" class="form-control"  tabindex="25">
+										<option value="matutino">Matutino</option>
+										<option value="noturno">Noturno</option>
+									</select>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="row">
+						<script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+						<div class="form-group col-md-12 center-block">
+							<div class="g-recaptcha center-block" data-sitekey="6LdcDw0UAAAAAFBc_d-i2pjG4QG0z1NjTbc5FEYw"></div>
+							<div id="captcha_validar">
+								Confirme o captcha
+							</div>
+						</div>
+					</div>
+					<input id="botao_formulario" class="form-control" type="submit" value="INSCREVA-SE">
+				</form>
+			</div>
+		</div>
+		</div>
+
+		<div id="footer_include"></div>
+            
+        </div> <!-- end of /#home-page -->
+
+        <!--  Necessary scripts  -->
+
+        <script type="text/javascript" src="../assets/js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../assets/js/owl.carousel.js"></script>
+        <script type="text/javascript" src="../assets/js/jquery.hoverdir.js"></script>
+
+
+        <!-- script for portfolio section using hoverdirection -->
+        <script type="text/javascript">
+            $(function() {
+
+                $('.portfolio-item > .item-image').each( function() { $(this).hoverdir({
+                    hoverDelay : 75
+                }); } );
+
+            });
+        </script>
+
+
+        <!-- script for twitter-feed using owl carousel-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#twit").owlCarousel({
+                    navigation : true, // Show next and prev buttons
+                    slideSpeed : 100,
+                    paginationSpeed : 400,
+                    navigationText : false,
+                    singleItem: true,
+                    autoPlay: true,
+                    pagination: false
+                });
+
+                $("#footer_include").load("../footer.html");
+                $("#menu_include").load("menu.html");
+ 
+            });
+        </script>
+
+
+        <!-- script for testimonial section using owl carousel -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#client-speech").owlCarousel({
+                 
+                    autoPlay: 5000, //Set AutoPlay to 3 seconds
+                    stopOnHover: true,
+                    singleItem:true
+                });
+ 
+            });
+        </script>
+
+
+    </body>
+</html>
