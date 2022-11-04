@@ -7,7 +7,7 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <title>Faculdade Anasps Notícias</title>
+        <title>Unicap Portal</title>
 
         <!-- meta -->
         <meta charset="utf-8">

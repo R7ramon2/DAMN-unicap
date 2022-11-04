@@ -9,16 +9,12 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <title>Faculdade Anasps</title>
+        <title>Unicap Portal</title>
 
         <!-- meta -->
         <meta charset="utf-8">
-        <meta name="author" content="Filipi Machado">
-        <meta name="author" content="Bruno Rodrigues Santos">
-        <meta name="author" content="Marcos Dorneles">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Educação Presencial e a Distância - Faculdade Anasps">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">     
 
         <!-- Banner Slide--> 
         <link rel="stylesheet" href="../assets/css/css_galery/normalize.css">

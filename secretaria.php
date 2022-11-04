@@ -7,16 +7,9 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <title>Faculdade Anasps</title>
+    <title>Unicap Portal</title>
 
-        <!-- meta -->
-        <meta charset="utf-8">
-        <meta name="author" content="Filipi Machado">
-        <meta name="author" content="Bruno Rodrigues Santos">
-        <meta name="author" content="Marcos Dorneles">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Educação Presencial e a Distância - Faculdade Anasps">
+        
 
         <!-- Banner Slide--> 
         <link rel="stylesheet" href="css/normalize.css">
@@ -59,7 +52,7 @@
                         <!-- navbar logo -->
                         <div class="navbar-brand">
                             <a href="index.html">
-                                <img src="assets/img/fanasps.png" class="img-responsive center-block" alt="logo">
+                                <img src="assets/imagens/UNICAP.jpg" class="img-responsive center-block" style="width: 58px;" alt="logo">
                             </a>
                         </div>
                         <!-- navbar logo -->
@@ -160,7 +153,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <p class="article-conclusion">
-                                            A Secretaria da Faculdade Anasps é o departamento responsável, entre outros serviços, por: declarações, atestados, históricos e certidões referentes a qualquer situação acadêmica. Tais serviços devem ser solicitados com antecedência junto à Secretaria, por meio de requerimento próprio. Consulte <a href="">aqui</a> os prazos de entrega da documentação.
+                                            A Secretaria da unicap é o departamento responsável, entre outros serviços, por: declarações, atestados, históricos e certidões referentes a qualquer situação acadêmica. Tais serviços devem ser solicitados com antecedência junto à Secretaria, por meio de requerimento próprio. Consulte <a href="">aqui</a> os prazos de entrega da documentação.
                                         </p>
                                     </div>
                                 </div>
@@ -215,7 +208,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <p class="article-conclusion">
-                                            A matrícula é renovada a cada semestre letivo, no período estabelecido no Calendário Acadêmico anual da Faculdade Anasps e será efetivada com a confirmação da primeira mensalidade paga e o contrato assinado. A não renovação da matrícula representa abandono de curso.
+                                            A matrícula é renovada a cada semestre letivo, no período estabelecido no Calendário Acadêmico anual da unicap e será efetivada com a confirmação da primeira mensalidade paga e o contrato assinado. A não renovação da matrícula representa abandono de curso.
                                         </p>
                                     </div>
                                 </div>
@@ -242,7 +235,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <p class="article-conclusion">
-                                            O Cancelamento da matrícula poderá ocorrer a requerimento do aluno ou pela Faculdade Anasps, quando de processo disciplinar com aplicação da pena de desligamento. É condição para o cancelamento a quitação das mensalidades até o mês vigente da solicitação e preenchimento de requerimento próprio entregue à Secretaria Acadêmica. Neste caso, o aluno perderá o vínculo com a Instituição e, para retornar aos estudos, terá que candidatar-se a novo Processo Seletivo.
+                                            O Cancelamento da matrícula poderá ocorrer a requerimento do aluno ou pela unicap, quando de processo disciplinar com aplicação da pena de desligamento. É condição para o cancelamento a quitação das mensalidades até o mês vigente da solicitação e preenchimento de requerimento próprio entregue à Secretaria Acadêmica. Neste caso, o aluno perderá o vínculo com a Instituição e, para retornar aos estudos, terá que candidatar-se a novo Processo Seletivo.
                                     </div>
                                 </div>
                             </article>

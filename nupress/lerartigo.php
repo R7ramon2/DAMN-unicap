@@ -7,17 +7,12 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <title>Faculdade Anasps</title>
+        <title>Unicap Portal</title>
 
         <!-- meta -->
         <meta charset="utf-8">
-        <meta name="author" content="Filipi Machado">
-        <meta name="author" content="Bruno Rodrigues Santos">
-        <meta name="author" content="Marcos Dorneles">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Educação Presencial e a Distância - Faculdade Anasps">
-
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">      
         <!-- Banner Slide--> 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/gallery.prefixed.css">
@@ -82,11 +77,6 @@
                         </a>
                     </div>
                     <h5></h5>
-                    <div class="faq-c">
-                        <a href="videos.html" class="btn blog-btn">
-                            Vídeos
-                        </a>
-                    </div>
                     <h5></h5>
                     <div class="faq-c">
                         <a href="#" class="btn blog-btn">

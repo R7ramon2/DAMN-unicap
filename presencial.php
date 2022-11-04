@@ -20,16 +20,7 @@
         </script>
 
 
-        <title>Faculdade Anasps</title>
-
-        <!-- meta -->
-        <meta charset="utf-8">
-        <meta name="author" content="Filipi Machado">
-        <meta name="author" content="Bruno Rodrigues Santos">
-        <meta name="author" content="Marcos Dorneles">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Educação Presencial e a Distância - Faculdade Anasps">
+        <title>Unicap Portal</title>
 
         <!-- Banner Slide--> 
         <link rel="stylesheet" href="assets/css/css_galery/normalize.css">
@@ -337,7 +328,7 @@
                                         <div class="item text-center">
                                             <div class="twit-content">
                                                 <div class="twit-icon">
-                                                    <img src="assets/imagens/logop.png" style=" width: 200px;">
+                                                    <img src="assets/imagens/UNICAP.jpg" class="img-responsive center-block" style="width: 58px;" alt="logo">
                                                 </div>
                                                 <h3>Instituição de Ensino Superior credenciada por meio da Portaria MEC nº 775 de 22 de julho de 2016, publicada no <b><a href="credenciamento_faculdade_anasps.pdf" target="">D.O.U de 25/07/2016</a></b>, para oferta do Curso Superior de Tecnologia em Gestão Pública, com ênfase em Previdência, cuja duração será de 2 (dois) anos,  funcionando inicialmente na cidade de Brasília/DF.</h3>
                                                 </div>
@@ -355,7 +346,7 @@
                                 <div class="col-md-6 col-md-offset-3">
                                     <h2 class="section-title"><b>DEPOIMENTOS DOS ALUNOS</b></h2>
                                     <p>
-                                        Depoimentos de alunos e ex-alunos da Faculdade Anasps
+                                        Depoimentos de alunos e ex-alunos da unicap
                                     </p> <!-- /.section-sub-title -->
                                 </div>
                             </div>
@@ -373,7 +364,7 @@
                                             </div> <!-- end of /.about-client -->
                                             <div class="main-speech">
                                                 <p>
-                                                    Na minha opnião a Faculdade Anasps proporciona um ambiente favorável ao conhecimento científico, com professores altamente qualificados.
+                                                    Na minha opnião a unicap proporciona um ambiente favorável ao conhecimento científico, com professores altamente qualificados.
                                                 </p>
                                             </div> <!-- end of /.main-speech  -->
                                         </div> <!-- end of /.client-box -->
@@ -387,7 +378,7 @@
                                             </div> <!-- end of /.about-client -->
                                             <div class="main-speech">
                                                 <p>
-                                                    A Faculdade Anasps traz uma proposta inovadora que busca atender uma demanda do mercado e almeja qualificar seus clientes. Possui uma banca de professores e funcionários altamente qualificados que estão sempre disponíveis para proporcionar um ensino de qualidade.
+                                                    A unicap traz uma proposta inovadora que busca atender uma demanda do mercado e almeja qualificar seus clientes. Possui uma banca de professores e funcionários altamente qualificados que estão sempre disponíveis para proporcionar um ensino de qualidade.
                                                 </p>
                                             </div> <!-- end of /.main-speech  -->
                                         </div> <!-- end of /.client-box -->
@@ -405,7 +396,7 @@
                                             </div> <!-- end of /.about-client -->
                                             <div class="main-speech">
                                                 <p>
-                                                    A Faculdade Anasps começou com o curso de Gestão Pública que tem professores excelentes, alguns da UNB e outros com mestrado e doutorado. A Faculdade Anasps tem tudo para crescer.
+                                                    A unicap começou com o curso de Gestão Pública que tem professores excelentes, alguns da UNB e outros com mestrado e doutorado. A unicap tem tudo para crescer.
                                                 </p>
                                             </div> <!-- end of /.main-speech  -->
                                         </div> <!-- end of /.client-box -->
@@ -437,7 +428,7 @@
                                             </div> <!-- end of /.about-client -->
                                             <div class="main-speech">
                                                 <p>
-                                                    A Faculdade Anasps oferece uma ótima preparação para o mercado de trabalho, com professores bem capacitados que possuem um vasto conhecimento, tanto profissional como pessoal. 
+                                                    A unicap oferece uma ótima preparação para o mercado de trabalho, com professores bem capacitados que possuem um vasto conhecimento, tanto profissional como pessoal. 
                                                 </p>
                                             </div> <!-- end of /.main-speech  -->
                                         </div> <!-- end of /.client-box -->

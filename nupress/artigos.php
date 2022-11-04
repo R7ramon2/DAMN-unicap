@@ -7,16 +7,12 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <title>Faculdade Anasps</title>
+    <title>Unicap Portal</title>
 
-        <!-- meta -->
-        <meta charset="utf-8">
-        <meta name="author" content="Filipi Machado">
-        <meta name="author" content="Bruno Rodrigues Santos">
-        <meta name="author" content="Marcos Dorneles">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Educação Presencial e a Distância - Faculdade Anasps">
+<!-- meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 
         <!-- Banner Slide--> 
         <link rel="stylesheet" href="css/normalize.css">
@@ -68,7 +64,7 @@
     <section>
 
       <div class="container pb-60">
-        <img class="image-responsive" src="imgs/logo-nupress.png">
+        <img class="image-responsive" src="../assets/imagens/logop.png" style="200px;">
 
         <div class="section-content">
 
@@ -82,11 +78,7 @@
                         </a>
                     </div>
                     <h5></h5>
-                    <div class="faq-c">
-                        <a href="videos.html" class="btn blog-btn">
-                            Vídeos
-                        </a>
-                    </div>
+                    
                     <h5></h5>
                     <div class="faq-c">
                         <a href="#" class="btn blog-btn">
@@ -171,34 +163,7 @@
 				}
 				?>
                 
-              <!--<div class="col-sm-6 col-md-4 noticia artigo">
-                <div class="service-block service-block-noticia bg-white">                  
-                  <div class="content text-left flip p-25 pt-0">
-                    <h4 class="line-bottom mb-10">NOVOS NOMES, OS MESMOS PARTIDOS</h4>
-                    <p><p>
-Publicado em Artigo por Marcos Queiroz
-
-
-
-Em menos de um ano e meio de governo, o presidente Mic[...]</p></p>
-                   <a class="btn blog-btn" href="https://www.institutoanasps.com.br/artigo/novos-nomes-os-mesmos-partidos/">Ler artigo</a>
-                  </div>
-                </div>
-              </div>
-                
-
               
-                
-              <div class="col-sm-6 col-md-4 noticia artigo">
-                <div class="service-block service-block-noticia bg-white">                  
-                  <div class="content text-left flip p-25 pt-0">
-                    <h4 class="line-bottom mb-10">MEDIDAS PROVISÓRIAS E O PODER DE LEGISLAR DO PRESIDENTE</h4>
-                    <p><p>Publicado em Artigo por Marcos Queiroz
-Em menos de um ano e meio de governo, o presidente Michel [...]</p></p>
-                   <a class="btn blog-btn" href="https://www.institutoanasps.com.br/artigo/medidas-provisorias-e-o-poder-de-legislar-do-presidente/">Ler artigo</a>
-                  </div>
-                </div>
-              </div>
                 
 
               
@@ -211,7 +176,7 @@ Em menos de um ano e meio de governo, o presidente Michel [...]</p></p>
                    <a class="btn blog-btn" href="https://bdtd.ucb.br:8443/jspui/bitstream/123456789/357/1/Sebastiao%20Faustino%20de%20Paula.pdf" target="_blank">Ler artigo</a>
                   </div>
                 </div>
-              </div>-->
+              </div>
                 
               </div>
 			  
