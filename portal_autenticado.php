@@ -6,7 +6,7 @@
 
     require "conexao.php";
 
-    
+
 
     if (isset($_COOKIE['portalSession'])){
         //TODO recuperar dados autenticado
@@ -107,7 +107,9 @@
                     </div>
             </div>
             <?php
-                include ($_GET['funcao']);
+                if (isset($_GET['funcao'])){
+                    include ($_GET['funcao']);
+                }
             ?>
             </html>
             
