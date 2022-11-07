@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -46,8 +42,11 @@
     </head>
 
     <?php
+        if (isset($_COOKIE['portalSession'])){
+            header("Location: portal_autenticado.php?portal_autenticado.php");
+        }
         if(empty($_GET['page'])){
-            $_GET['page'] = "index.html";
+            $_GET['page'] = "main.html";
         }
         include($_GET['page']);
     ?>
