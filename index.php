@@ -43,7 +43,7 @@
 
     <?php
         if (isset($_COOKIE['portalSession'])){
-            header("Location: portal_autenticado.php?portal_autenticado.php");
+            header("Location: portal_autenticado.php?page=professor.php");
         }
         if(empty($_GET['page'])){
             $_GET['page'] = "main.html";

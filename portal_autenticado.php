@@ -1,6 +1,20 @@
 <?php
 
-echo "portal autenticado";
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+
+    require "conexao.php";
+
+    
+
+    if (isset($_COOKIE['portalSession'])){
+        //TODO recuperar dados autenticado
+    }
+    else{
+        header("Location: index.php");
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +37,7 @@ echo "portal autenticado";
         </script>
 
 
-        <title>Unicap Portal</title>
+        <title>Unicap Portal - Professor</title>
 
         <!-- meta -->
         <meta charset="utf-8">
@@ -69,16 +83,22 @@ echo "portal autenticado";
                         <ul class="nav navbar-nav navbar-right text-uppercase">
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>ESPAÇO DO ALUNO</span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>ESPAÇO DO PROFESSOR</span></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="moodle.html">Moodle</a>
+                                        <a href="#"></a>
                                     </li>
                                     <li>
-                                        <a href="bibliotecas.html">Bibliotecas</a>
+                                        <a href="portal_autenticado.php?page=professor&funcao=alterar_dados.php">Alterar dados</a>
                                     </li>
                                     <li>
-                                        <a href="https://portal.sophia.com.br/X7_23/Acesso.aspx?escola=6025">Secretaria</a>
+                                        <a href="portal_autenticado.php?page=professor&funcao=lista_chamada.php">Lista de chamada</a>
+                                    </li>
+                                    <li>
+                                        <a href="portal_autenticado.php?page=professor&funcao=alterar_notas.php">Alterar notas</a>
+                                    </li>
+                                    <li>
+                                        <a href="logout.php">Sair</a>
                                     </li>
                                 </ul>  <!-- end of /.dropdown-menu -->
                             </li> <!-- end of /.dropdown -->
@@ -86,6 +106,11 @@ echo "portal autenticado";
                         <ul class="nav navbar-nav navbar-right text-uppercase">
                     </div>
             </div>
+            <?php
+                include ($_GET['funcao']);
+            ?>
+            </html>
+            
     </body>
     
 </html>
